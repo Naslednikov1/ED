@@ -1,0 +1,99 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Новый заказ</title>
+		<style type="text/css">
+			#Public {
+				height: 800px;
+				width: 700px;
+				border: 4px solid #000000;
+				background-color: Beige;
+			}
+			#Useless {
+				position: relative;
+				left: 150px;
+				bottom: 810px; 
+				height: 38px;
+				width: 400px;
+				border: 4px solid #000000; 
+				font-size: 20px;
+				text-align: center; 
+				padding-top: 12px;
+			}
+			#Day {
+				position: relative;
+				bottom: 800px;
+				left: 20px;
+				font-size: 20px;
+			}
+			#Button {
+				position: relative;
+				bottom: 792px; 
+				left: 30px; 
+				height: 20px; 
+				width: 30px;
+			}
+			#Text {
+				position: relative;
+				bottom: 1100px;
+				left: 160px;
+				font-size: 20px;
+			}
+			button {
+				position: relative;
+				bottom: 1050px;
+				left: 50px;
+				height: 100px;
+				width: 600px;
+			}
+		</style>
+	</head>
+	<body>
+		<p id="Public"><p>
+		<p id="Useless"><b>Создание заказа</b></p>
+		<table>
+			<tr>
+				<td id="Day">ПН</td>
+				<td><form action=""><button id="Button" title="Убрать">-</button></form></td>
+			</tr>
+			<tr>
+				<td id="Day">ВТ</td>
+				<td><form action=""><button id="Button" title="Добавить">+</button></form></td>
+			</tr>
+			<tr>
+				<td id="Day">СР</td>
+				<td><form action=""><button id="Button" title="Добавить">+</button></form></td>
+			</tr>
+			<tr>
+				<td id="Day">ЧТ</td>
+				<td><form action=""><button id="Button" title="Добавить">+</button></form></td>
+			</tr>
+			<tr>
+				<td id="Day">ПТ</td>
+				<td><form action=""><button id="Button" title="Добавить">+</button></form></td>
+			</tr>
+			<tr>
+				<td id="Day">СБ</td>
+				<td><form action=""><button id="Button" title="Добавить">+</button></form></td>
+			</tr>
+			<tr>
+				<td id="Day">ВС</td>
+				<td><form action=""><button id="Button" title="Добавить">+</button></form></td>
+			</tr>
+		</table>
+		<p id="Text"><b>Укажите время                  <input type="time" title="Время" style="height: 24px"></b></p>
+		<p id="Text"><b>Укажите кол-во недель    <input type="number" title="Кол-во недель" min="1" style="height: 24px"></b></p>
+		<p id="Text">Ваш баланс: <b style="color: red"> 1000</b> руб.</p>
+		<p id="Text">Ваш заказ: Наименование(50руб.), Наименование(50руб.).<br>На <b style="color: red">100</b> руб.</p>
+		<p id="Text">Подогреть(+15руб.)<form action=""><button id="Button" title="Подогреть(+15руб)" style="left: 350px; bottom: 1140px">+</button></form></p>
+		<form action="Меню.html">
+		<button>Перейти к выбору товаров</button>
+		</form>
+		<form action="Главная страница.html">
+		<button>Сохранить</button>
+		</form>
+		<form action="Главная страница.html">
+			<button>Отмена</button>
+		</form>
+	</body>
+</html>
