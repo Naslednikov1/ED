@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Список активных заказов</title>
+		<style>
+			#Public {
+				height: 800px;
+				width: 700px;
+				border: 4px solid;
+				background-color: royalBlue;
+			}
+			.Text {
+				position: relative;
+				border: 4px solid;
+				height: 60px;
+				text-align: center;
+				padding-top: 40px;
+				font-size: 20px
+			}
+			.ButtonAccept, .ButtonDecline {
+				position: relative;
+				width: 156px;
+				height: 108px;
+				border: 4px solid;
+				text-align: center;
+				font-size: 20px;
+			}
+			.ButtonDecline {
+				left: 552px; 
+				background-color: red;
+			}	
+			.ButtonAccept {
+				left: 400px;
+				background-color: lime;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<p id="Public"></p>
+		<b>
+			<p class="Text" style="bottom: 828px; width: 196px;">ID кейса</p>
+			<p class="Text" style="bottom: 956px; left: 200px; width: 196px;">Список товаров</p>
+			<p class="Text" style="bottom: 1084px; left: 400px; width: 300px;">Принять/отменить</p>
+			<p class="Text" style="bottom: 1108px; width: 196px;">1</p>
+			<p class="Text" style="bottom: 1236px; left: 200px; width: 196px; height: 100px; padding-top: 0px;">Борщ,<br/>компот</p>
+			<form action="">
+				<button class="ButtonAccept" onclick="alert('Заказ принят!')" style="bottom: 1364px; ">Принять</button>
+			</form>
+			<form action="">
+				<button class="ButtonDecline" onclick="alert('Заказ отменён!')" style="bottom: 1472px;">Отменить</button>
+			</form>
+			<p class="Text" style="bottom: 1496px; width: 196px;">2</p>
+			<p class="Text" style="bottom: 1624px; left: 200px; width: 196px; height: 100px; padding-top: 0px;">Котлетки с пюрешкой</p>
+			<form action="">
+				<button class="ButtonAccept" onclick="alert('Заказ принят!')" style="bottom: 1752px; ">Принять</button>
+			</form>
+			<form action="">
+				<button class="ButtonDecline" onclick="alert('Заказ отменён!')" style="bottom: 1860px;">Отменить</button>
+			</form>
+			<form action="Описание заказа1.html">
+				<button style="position: relative; bottom: 2068px; width: 400px; height: 100px; background-color: Transparent; border: 0px"/>
+			</form>
+			<form action="Описание заказа2.html">
+				<button style="position: relative; bottom: 2067px; width: 400px; height: 100px; background-color: Transparent; border: 0px"/>
+			</form>
+			<form action="Главная страница.html">
+				<button style="position: relative; bottom: 1616px; right: 400px; width: 708px; height: 100px; border: 4px solid; background-color: Transparent;">На главную</button>
+			</form>
+		</b>
+	</body>
+</html>

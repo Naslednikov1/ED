@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Вход</title>
+		<style>
+			#Public {
+				height: 800px;
+				width: 700px;
+				border: 4px solid;
+				background-color: Aqua;
+			}
+			.Text {
+				position: relative; 
+				bottom: 670px; 
+				left: 90px; 
+				font-size: 26px; 
+				width: 100px
+			}
+			.RemID {
+				position: relative;
+				bottom: 673px;
+				left: 360px;
+				width: 150px;
+				height: 35px;
+				background-color: Transparent;
+				border: 2px solid;
+				font-size: 26px;
+			}
+			input {
+				position: relative;
+				bottom: 500px;
+				left: 200px;
+				width: 300px;
+				height: 35px;
+				border: 2px solid;
+				background: Aqua;
+				color: black;
+				font-size: 26px;
+				padding-left: 5px
+			}
+		</style>
+	</head>
+	<body>
+		<p id="Public"></p>
+		<form action="Главная страница.html">
+			<p>
+				<input type="text" style="color: black" name="ID"/>
+			</p>
+			<p>
+				<input type="password" style="color: black" name="Password"/>
+			</p>
+			<p>
+				<input type="submit" onclick="alert('Данные верны!')" style="left: 200px; width: 150px" value="Вход"/>
+			</p>
+		</form>
+		<b>
+			<p class="Text">ID</p>
+			<p class="Text">Пароль</p>
+		</b>
+		<form action="Узнать ID.html">
+			<button class="RemID">Узнать ID</button>
+		</form>
+	</body>
+</html>
