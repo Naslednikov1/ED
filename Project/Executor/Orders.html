@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Список активных заказов</title>
+		<link rel="stylesheet" href="../CSS/Orders.css">
+		<script src="JS/Orders.js"></script>
+	</head>
+	<body>
+		<h1>Список активных заказов</h1>
+		<div>
+			<table id="table">
+				<tr>
+					<th>ID кейса</th>
+					<th>Состав заказа</th>
+					<th class="accept"></th>
+					<th class="decline"></th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>Несквик с пивом</td>
+					<td id="accept" class="accept">
+						<form action="">
+							<input type="submit" value="Подтвердить" onclick="testAccept()" />
+						</form>
+					</td>
+					<td id="decline">
+						<form action="Description.html">
+							<input type="submit" value="Подробнее" />
+						</form>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="back">
+			<form action="Main page.html">
+				<input type="submit" value="Вернуться на главную" />
+			</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Подробности заказа</title>
+		<link rel="stylesheet" href="CSS/Description.css">
+		<script src="JS/Orders.js"></script>
+	</head>
+	<body>
+		<h1>Подробности заказа</h1>
+		<div class="idCase">
+			<span class="idCaseLeft">ID кейса</span>
+			<span class="idCaseContent">000001</span>
+		</div>
+		<div class="idOrder">
+			<span class="idOrderLeft">ID заказа</span>
+			<span class="idOrderContent">000001</span>
+		</div>
+		<div class="idUser">
+			<span class="idUserLeft">ID пользователя</span>
+			<span class="idUserContent">000001</span>
+		</div>
+		<div class="time">
+			<span class="timeLeft">Время получения заказа</span>
+			<span class="timeContent">10:30</span>
+		</div>
+		<div class="goods">
+			<span class="goodsLeft">Состав заказа</span>
+			<span class="goodsContent">Несквик с пивом</span>
+		</div>
+		<div class="ready">
+				<span class="readyLeft">Статус</span>
+				<span class="readyContent">Не готов</span>
+			</div>
+		<div class="acception">
+			<form action="">
+				<input type="submit" class="idCase" id="accept" onclick="testAccept(this)" value="Подтвердить готовность" />
+			</form>
+			<form action="">
+				<input type="submit" class="idCase" id="decline" onclick="testDecline(this)" value="Опровергнуть готовность" />
+			</form>
+		</div>
+		<div class="back">
+			<form action="Main page.html">
+				<input type="submit" value="Вернуться на главную" />
+			</form>
+		</div>
+	</body>
+</html>

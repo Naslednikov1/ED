@@ -1,0 +1,40 @@
+body, input{
+    font-family: sans-serif;
+    font-size: 20px;
+    background: #23ca02;
+}
+input{
+    border: 2px solid black;
+    background: chartreuse;
+    outline: none;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.balanceAndTotal{
+    text-align: right;
+    transform: translateY(-50%);
+}
+.categories{
+    width: 100%;
+}
+.categories input{
+    margin-top: -2px;
+    height: 100px;
+    width: 20%;
+    white-space: normal;
+}
+.goods{
+    text-align: center;
+    padding-top: 290px;
+    float: right;
+    position: relative;
+    left: -2px;
+    bottom: 394px;
+    border: 2px solid black;
+    width: 80%;
+    height: 600px;
+    background: chartreuse;
+    box-sizing: border-box;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Создание записи</title>
+		<link rel="stylesheet" href="css/To order.css">
+	</head>
+	<body>
+		<h1>Создание записи</h1>
+		<div class="days"></div>
+			<table>
+				<tr>
+					<td>ПН</td>
+					<td>ВТ</td>
+					<td>СР</td>
+					<td>ЧТ</td>
+					<td>ПТ</td>
+					<td>СБ</td>
+					<td>ВС</td>
+				</tr>
+				<tr>
+						<td><input type="checkbox" title="Понедельник" /></td>
+						<td><input type="checkbox" title="Вторник" /></td>
+						<td><input type="checkbox" title="Среда" /></td>
+						<td><input type="checkbox" title="Четверг" /></td>
+						<td><input type="checkbox" title="Пятница" /></td>
+						<td><input type="checkbox" title="Суббота" /></td>
+						<td><input type="checkbox" title="Воскресенье" /></td>
+				</tr>
+			</table>
+		</div>
+		<div class="time">
+				Укажите время получения заказа<input type="time" />
+		</div>
+		<div class="quantity">
+			Укажите количество недель<input type="number" min="1" max="100" />
+		</div>
+		<div class="balance">
+			Ваш баланс: <span style="color:#041757">1000</span> руб.
+		</div>
+		<div class="orderAndWarm">
+			Ваш заказ: наименование(199,99руб.), наименование(77,77руб.).<br />На 277,76руб.<br />
+			Подогреть (+10руб.) <input type="checkbox" title="Подогреть(+10руб.)" />
+		</div>
+		<div class="buttons">
+			<form action="Menu.html">
+				<input type="submit" value="Перейти к выбору товаров" />
+			</form>
+			<form action="Main page.html">
+				<input type="submit" value="Сохранить" onclick="alert('Заказ сохранен')"/>
+			</form>
+			<form action="Main page.html">
+				<input type="submit" value="Отмена" onclick="alert('Заказ отменен')" />
+			</form>
+		</div>
+	</body>
+	</html>

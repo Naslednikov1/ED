@@ -1,0 +1,31 @@
+body {
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    background: #25af53;
+}
+h1{
+    text-align: center;
+    transform: translateY(-500%);
+}
+.name {
+    position: absolute;
+    top: 20%;
+    width: auto;
+    height: 40%;
+    text-align: center;
+}
+.name input{
+    width: 50%;
+    height: 10%;
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid #00f7ff;
+    border-radius: 30px;
+    outline: none;
+    background: yellow;
+    font-size: 20px;
+}

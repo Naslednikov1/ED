@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    background: #25af53;
+    text-align: center;
+}
+.login {
+    position: absolute;
+    top: 20%;
+    width: auto;
+    height: 40%;
+    text-align: center;
+}
+.login input{
+    width: 80%;
+    height: 15%;
+    margin: 5px auto;
+    text-align: center;
+}
+.login input:focus, .login input:hover, .login input:valid{
+    width: 100%;
+}
+.remID{
+    position: absolute;
+    top: 50%;
+    width: auto;
+    height: 6%;
+}
+.remID button{
+    width: 100%;
+    height: 100%;
+}
+.login input, .remID button{
+    border: 2px solid #00f7ff;
+    border-radius: 30px;
+    outline: none;
+    background: rgba(250, 250, 20, 0.74);
+    font-size: 20px;
+}
+
+.remID:hover{
+    width: 30%;
+}
